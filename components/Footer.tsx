@@ -8,7 +8,7 @@ interface RepoStats {
 
 const Footer = async () => {
     const repoStats = await fetch(
-        'https://api.github.com/repos/tajmirul/portfolio-2.0',
+        'https://github.com/vikramjeet-pixel/portfolio_2.0',
         {
             next: {
                 revalidate: 60 * 60, // 1 hour
@@ -47,9 +47,9 @@ const Footer = async () => {
                         </div>
                     </a>
 
-                    {/* Note: If you are not Tajmirul, use this copyright message instead */}
-                    {/* <a href='https://www.me.toinfinite.dev/' className="leading-none text-muted-foreground hover:underline hover:text-white">
-                        Design & built by Tajmirul Islam <br />
+                    {/* Note: If you are not Vikramjeet singh, use this copyright message instead */}
+                    {/* <a href='https://portfoliovikramjeetsingh.vercel.app/' className="leading-none text-muted-foreground hover:underline hover:text-white">
+                        Design & built by Vikramjeet singh <br />
                         Revised by YOUR NAME
 
                         <div className="flex items-center justify-center gap-5 pt-1">
